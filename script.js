@@ -2,7 +2,7 @@ const story = {
   s1Title: '편지당? 💌',
   s1Text: '봉투 눌러서 열엉',
   s2Title: '안뇽! 💗',
-  s2Text: '효딤효륌야!',
+  s2Text: '효딤효륌아!',
   s2Hint: '하트를 눌러봥 💕',
   s3Title: '나 사랑하쥐?? 🥺',
   s4Title: '헤헷 나더 누구 사랑해 ❤️',
