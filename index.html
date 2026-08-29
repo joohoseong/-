@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>너에게 💌</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="bg"></div>
+
+    <div class="card">
+      <section class="screen active" id="s1">
+        <div class="envelope-wrap" id="envelope" aria-label="봉투 열기" tabindex="0">
+          <div class="letter">💌</div>
+          <div class="envelope">
+            <div class="flap"></div>
+            <div class="seal">♥</div>
+          </div>
+        </div>
+        <h1 id="s1Title">편지가 도착했어 💌</h1>
+        <p id="s1Text">봉투를 눌러서 열어봐!</p>
+      </section>
+
+      <section class="screen" id="s2">
+        <h1 id="s2Title">안녕! 💗</h1>
+        <p id="s2Text">
+          여기까지 와줬네 ㅎㅎ<br />
+          이제 작은 부탁 하나만 들어줘.
+        </p>
+        <button class="main-heart" id="go3" type="button">♥</button>
+        <p id="s2Hint">하트를 눌러봥 💕</p>
+      </section>
+
+      <section class="screen" id="s3">
+        <h1 id="s3Title">나 사랑해?? 🥺</h1>
+        <div class="yesno">
+          <button id="yes" type="button">응! ❤️</button>
+          <button id="no" type="button">아니??</button>
+        </div>
+        <div id="hint">잘 생각해봐... 😏</div>
+      </section>
+
+      <section class="screen" id="s4">
+        <h1 id="s4Title">역시 그럴 줄 알았어 ❤️</h1>
+        <p id="s4Text">고마워 ㅎㅎ</p>
+        <button class="next-heart" id="go5" type="button">♥</button>
+        <p id="s4Hint">하트를 눌러봐 💗</p>
+      </section>
+
+      <section class="screen" id="s5">
+        <div id="backText">
+          <span id="s5MainText">다음을 눌러봥</span>
+          <span id="s5SubText">그럼 다른 하트를 눌러봐 😏</span>
+        </div>
+        <button class="alt-heart" id="go6" type="button">♡</button>
+        <p id="s5Note" class="small-note">이 하트 말고 다른 방법은 없어 ✨</p>
+      </section>
+
+      <section class="screen" id="s6">
+        <div id="finalHeart">❤️</div>
+        <h1 id="s6Title">짜잔!</h1>
+        <p id="s6Text">
+          마지막까지 눌러줬네 ㅎㅎ<br /><br />
+          항상 고맙고,<br />
+          앞으로도 예쁜 추억 많이 만들자 💗
+        </p>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
